@@ -60,7 +60,7 @@ df_growth4 = df_growth3.set_index('city_ibge_code')
 
 df_growth5 = df_growth4.join(DF3)
 
-df_UTI = pd.read_csv('data/sites.csv')
+df_UTI = pd.read_csv('data/UTI_CNES.csv')
 
 
 df_UTI2 = df_UTI[['city_ibge_code', 'UTI_adulto_COVID19']]
